@@ -1,0 +1,14 @@
+# MLflow tracking data and model files - do not upload
+mlruns/
+mlartifacts/
+mlflow.db
+*.pkl
+*.pt
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+.venv/
+venv/
+.idea/
