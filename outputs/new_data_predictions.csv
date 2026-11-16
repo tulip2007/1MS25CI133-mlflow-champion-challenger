@@ -1,0 +1,7 @@
+model_version,alias,text,predicted_label,confidence
+1,champion,I'm currently preparing for the KR fest.,POSITIVE,0.9435
+1,champion,I'm in the music and fashion team.,POSITIVE,0.9962
+1,champion,This phone's battery runs out in less than a day.,NEGATIVE,0.9996
+1,champion,The hostel food has been cold and tasteless since the day I joined.,NEGATIVE,0.9994
+1,champion,Honestly the workshop was okay; nothing special but not a waste of time.,POSITIVE,0.9767
+1,champion,Our team finally fixed the bug and the demo went perfectly!,POSITIVE,0.9996
