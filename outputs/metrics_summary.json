@@ -1,0 +1,27 @@
+{
+  "primary_metric": "macro_f1",
+  "margin": 0.02,
+  "max_latency_ratio": 10.0,
+  "A": {
+    "hf_model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "accuracy": 0.935,
+    "macro_f1": 0.9343,
+    "precision_macro": 0.9359,
+    "recall_macro": 0.9331,
+    "avg_latency_ms": 7.7411,
+    "total_inference_s": 1.5482
+  },
+  "B": {
+    "hf_model_id": "siebert/sentiment-roberta-large-english",
+    "accuracy": 0.945,
+    "macro_f1": 0.9444,
+    "precision_macro": 0.946,
+    "recall_macro": 0.9432,
+    "avg_latency_ms": 60.3684,
+    "total_inference_s": 12.0737
+  },
+  "delta_primary_metric": 0.0101,
+  "latency_ratio_B_over_A": 7.8,
+  "winner": "A_sentiment_distilbert-sst2",
+  "reason": "Difference below margin - Champion stays"
+}
